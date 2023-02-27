@@ -12,20 +12,20 @@ class Employee:
     raise_amount = 1.04
     num_of_emps = 0
     
-    def __init__(custom_self, first, last, salary):
-        custom_self.first_name = first
-        custom_self.last_name = last
-        custom_self.salary = salary
-        custom_self.email = first + '.' + last + '@company.com'
+    def __init__(self, first, last, salary):
+        self.first_name = first
+        self.last_name = last
+        self.salary = salary
+        self.email = first + '.' + last + '@company.com'
         
         Employee.num_of_emps += 1
     
     # regular methods automatically takes the class instance as a argument
-    def fullname(custom_self) :
-        return '{} {}'.format(custom_self.first_name, custom_self.last_name)
+    def fullname(self) :
+        return '{} {}'.format(self.first_name, self.last_name)
     
-    def raiser(custom_self) : 
-        custom_self.salary = int(custom_self.salary * custom_self.raise_amount)
+    def raiser(self) : 
+        self.salary = int(self.salary * self.raise_amount)
     
     '''
         to create a class method, use the decorator @classmethod
