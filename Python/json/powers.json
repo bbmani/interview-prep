@@ -1,0 +1,24 @@
+{
+  "active": true,
+  "formed": 2016,
+  "homeTown": "Metro City",
+  "members": [
+    {
+      "age": 29,
+      "name": "Molecule Man",
+      "secretIdentity": "Dan Jukes"
+    },
+    {
+      "age": 39,
+      "name": "Madame Uppercut",
+      "secretIdentity": "Jane Wilson"
+    },
+    {
+      "age": 1000000,
+      "name": "Eternal Flame",
+      "secretIdentity": "Unknown"
+    }
+  ],
+  "secretBase": "Super tower",
+  "squadName": "Super Hero Squad"
+}
