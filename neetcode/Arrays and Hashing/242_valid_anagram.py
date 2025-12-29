@@ -1,3 +1,6 @@
+# Find whether t is anagram of s
+# Time complexity is O(2n) ~ O(n) because each array is gone through once
+
 def isAnagram(s, t):
 	if len(s) != len(t): return False
 		

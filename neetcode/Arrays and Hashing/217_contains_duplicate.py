@@ -1,3 +1,6 @@
+# Find whether there is even one duplicate, if it is, return True, else False
+# Time complexity is O(n) because there is one loop going through all numbers but get function for dictionary is O(1)
+
 def containsDuplicate(input):
     duplicate_array = {}
 
